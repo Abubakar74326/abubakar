@@ -4,7 +4,7 @@ FROM python:3.7-slim
 # Install the Flask package via pip
 RUN pip install flask
 
-COPY APIcode.py /
+COPY API code.py /
 COPY factorialcode.py /
 EXPOSE 5002
 # Set the command as the script name

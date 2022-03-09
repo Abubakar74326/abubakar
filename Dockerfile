@@ -4,7 +4,7 @@ FROM python:3.7-slim
 # Install the Flask package via pip
 RUN pip install flask
 
-COPY API code.py /app/
+COPY API_code.py /app/
 COPY factorialcode.py /app/
 WORKDIR /app/
 EXPOSE 5002
